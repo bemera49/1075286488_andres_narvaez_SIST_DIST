@@ -32,4 +32,26 @@ CREATE TABLE prestamo (
     CONSTRAINT fk_prestamo_usuario_id_usuario_id FOREIGN KEY (usuario_id) REFERENCES usuario(id),
     CONSTRAINT fk_prestamo_libro_id_libro_id FOREIGN KEY (libro_id) REFERENCES libro(id)
 );
+
+INSERT INTO Usuario (nombre, email, tipo) VALUES 
+('Juan Perez', 'juan.perez@example.com', 'Administrador'),
+('Maria Lopez', 'maria.lopez@example.com', 'Visitante'),
+('Carlos Gomez', 'carlos.gomez@example.com', 'Visitante');
+
+INSERT INTO Sala (nombre) VALUES 
+('Sala 1'),
+('Sala 2'),
+('Sala 3');
+
+INSERT INTO Libro (titulo, categoria, sala_id) VALUES 
+('El principito', 'Infantil', 1),
+('1984', 'Ficcion', 2),
+('Cien años de soledad', 'Novela', 3);
+
+INSERT INTO Prestamo (usuario_id, libro_id, fecha_prestamo) VALUES 
+(1, 1, CURDATE()),
+(2, 2, CURDATE()),
+(3, 3, CURDATE());
+
+SELECT * FROM usuario;
 	
