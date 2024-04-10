@@ -1,106 +1,64 @@
-# Andres Felipe
+Red Social de Andrés Felipe
+Este proyecto es una red social desarrollada con Spring Boot, diseñada específicamente para facilitar la conexión y la interacción entre usuarios. Permite a los usuarios crear perfiles, publicar actualizaciones de estado, compartir fotos, seguir a otros usuarios, y más. Este proyecto personalizado busca ofrecer una plataforma sencilla pero poderosa para la interacción social online.
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Comenzando 🚀
+Sigue estas instrucciones para obtener una copia del proyecto en funcionamiento en tu máquina local para fines de desarrollo y pruebas.
 
-## Comenzando 🚀
+Clona este repositorio a tu máquina local para empezar:
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+bash
+Copy code
+git clone https://github.com/andresfelipe/red-social-springboot.git
+Pre-requisitos 📋
+Deberás tener instalado Java JDK 11 o superior y Maven. Puedes verificar tus instalaciones con:
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Copy code
+java -version
+mvn -version
+Instalación 🔧
+Dentro del directorio del proyecto, ejecuta Maven para compilar el proyecto y sus dependencias:
 
+bash
+Copy code
+cd red-social-springboot
+mvn clean install
+Para iniciar la aplicación, ejecuta:
 
-### Pre-requisitos 📋
+arduino
+Copy code
+mvn spring-boot:run
+Accede a http://localhost:8080 para ver la aplicación en funcionamiento.
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Ejecutando las pruebas ⚙️
+Las pruebas automatizadas se pueden ejecutar con:
 
-```
-Da un ejemplo
-```
+bash
+Copy code
+mvn test
+Analice las pruebas end-to-end 🔩
+Estas pruebas aseguran que todas las funcionalidades de la red social, desde el registro de usuarios hasta la interacción entre ellos, funcionen integralmente como se espera.
 
-### Instalación 🔧
+Y las pruebas de estilo de codificación ⌨️
+Verifican que el código fuente siga las convenciones de estilo establecidas para mantener la calidad y coherencia en el proyecto, facilitando así su mantenimiento y comprensión.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Despliegue 📦
+Para el despliegue de esta red social en un entorno de producción, considera usar servicios como AWS Elastic Beanstalk o Heroku que facilitan el despliegue de aplicaciones Spring Boot.
 
-_Dí cómo será ese paso_
+Construido con 🛠️
+Spring Boot - El framework de aplicación
+Maven - Manejador de dependencias
+Spring Security - Para la autenticación y seguridad de la aplicación
+Bootstrap - Para el diseño de la interfaz de usuario
+Contribuyendo 🖇️
+Te invitamos a contribuir al proyecto. Por favor, revisa el archivo CONTRIBUTING.md para más detalles sobre cómo enviar pull requests.
 
-```
-Da un ejemplo
-```
+Autores ✒️
+Andrés Felipe - Desarrollo inicial - andresfelipe
+Sofía Rodríguez - Documentación - sofiarodriguez
+Licencia 📄
+Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE.md para más detalles.
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
-
-
----
-
+Expresiones de Gratitud 🎁
+Invita a otros a contribuir al proyecto 📢
+Considera donar al proyecto para su mejora y mantenimiento 🍺 ☕
+Da las gracias públicamente a quienes contribuyen 🤓.
